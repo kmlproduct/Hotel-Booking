@@ -1,0 +1,96 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  height: 120px;
+}
+h1 {
+  font-family: "Luckiest Guy", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+  span {
+    color: red;
+  }
+}
+.search {
+  position: relative;
+  input {
+    width: 350px;
+    height: 40px;
+    border: none;
+    background-color: #f5fafe;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+  }
+  ::placeholder {
+    color: #333333;
+    height: 15px;
+    padding-left: 23px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  span {
+    background-color: red;
+    position: absolute;
+    width: 65px;
+    height: 40px;
+    text-align: center;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    img {
+      position: absolute;
+      top: calc(50% - 8px);
+      left: calc(50% - 8px);
+    }
+  }
+}
+.right-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  .shopping-cart {
+    width: 34px;
+    position: relative;
+    margin-right: 30px;
+    img {
+      width: 24px;
+      height: 24px;
+    }
+    span {
+      position: absolute;
+      text-align: center;
+      color: white;
+      background-color: red;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      top: -8px;
+      left: 16px;
+    }
+  }
+  .Ellipse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span {
+      font-family: "Mulish", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 18px;
+      margin-right: 30px;
+      color: #333333;
+    }
+    .img-perso {
+      margin-right: 30px;
+    }
+  }
+}

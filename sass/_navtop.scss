@@ -1,0 +1,52 @@
+.navtop {
+  padding: 0 100px;
+  background: #f5fafe;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .heading-left {
+    span:first-child {
+      color: red;
+      height: 13px;
+      font-family: "Mulish", sans-serif;
+      font-weight: 700;
+      font-size: 10px;
+      color: #333333;
+      line-height: 12.55px;
+    }
+    span:last-child {
+      color: red;
+      height: 13px;
+      font-family: "Mulish", sans-serif;
+      font-weight: 400;
+      font-size: 10px;
+      color: #333333;
+      line-height: 12.55px;
+    }
+  }
+
+  .heading-right {
+    display: flex;
+    align-items: center;
+    .gift,
+    .star {
+      display: flex;
+      align-items: center;
+      margin-left: 98px;
+    }
+    span {
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 13px;
+      color: #333333;
+      margin-left: 20px;
+    }
+    img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+}

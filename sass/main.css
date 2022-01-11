@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 100px;
+}
+
+.navtop {
+  padding: 0 100px;
+  background: #f5fafe;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navtop .heading-left span:first-child {
+  color: red;
+  height: 13px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  color: #333333;
+  line-height: 12.55px;
+}
+.navtop .heading-left span:last-child {
+  color: red;
+  height: 13px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #333333;
+  line-height: 12.55px;
+}
+.navtop .heading-right {
+  display: flex;
+  align-items: center;
+}
+.navtop .heading-right .gift,
+.navtop .heading-right .star {
+  display: flex;
+  align-items: center;
+  margin-left: 98px;
+}
+.navtop .heading-right span {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  color: #333333;
+  margin-left: 20px;
+}
+.navtop .heading-right img {
+  width: 18px;
+  height: 18px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  height: 120px;
+}
+
+h1 {
+  font-family: "Luckiest Guy", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+}
+h1 span {
+  color: red;
+}
+
+.search {
+  position: relative;
+}
+.search input {
+  width: 350px;
+  height: 40px;
+  border: none;
+  background-color: #f5fafe;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+}
+.search ::-moz-placeholder {
+  color: #333333;
+  height: 15px;
+  padding-left: 23px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+.search :-ms-input-placeholder {
+  color: #333333;
+  height: 15px;
+  padding-left: 23px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+.search ::placeholder {
+  color: #333333;
+  height: 15px;
+  padding-left: 23px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+.search span {
+  background-color: red;
+  position: absolute;
+  width: 65px;
+  height: 40px;
+  text-align: center;
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.search span img {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 8px);
+}
+
+.right-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.right-navbar .shopping-cart {
+  width: 34px;
+  position: relative;
+  margin-right: 30px;
+}
+.right-navbar .shopping-cart img {
+  width: 24px;
+  height: 24px;
+}
+.right-navbar .shopping-cart span {
+  position: absolute;
+  text-align: center;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  top: -8px;
+  left: 16px;
+}
+.right-navbar .Ellipse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-navbar .Ellipse span {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  margin-right: 30px;
+  color: #333333;
+}
+.right-navbar .Ellipse .img-perso {
+  margin-right: 30px;
+}
+
+.navbarBottom {
+  background-color: #0a223d;
+  height: 80px;
+}
+.navbarBottom ul {
+  list-style: none;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbarBottom ul a {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.bread-crumb {
+  height: 50px;
+  background: #f5fafe;
+  display: flex;
+  align-items: center;
+}
+.bread-crumb p {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  color: #0a223d;
+}/*# sourceMappingURL=main.css.map */
