@@ -1,0 +1,41 @@
+.hotel-name {
+  background: #f5fafe;
+  .stars {
+    img {
+      width: 8px;
+      height: 8px;
+    }
+  }
+  .heading {
+    display: flex;
+    h1 {
+      font-family: "Mulish", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 30px;
+      display: inline;
+      color: #333333;
+    }
+    span {
+      padding: 9px 5px;
+      background: #ec1f46;
+      border-radius: 3px;
+      font-family: "Mulish", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 13px;
+      color: #ffffff;
+      margin-left: 20px;
+    }
+  }
+  .names {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #333333;
+  }
+}

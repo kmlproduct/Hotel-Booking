@@ -1,0 +1,107 @@
+.parent-slider {
+  background-color: #f5fafe;
+  padding-top: 30px;
+  .container-slide {
+    display: flex;
+    justify-content: space-between;
+  }
+  .slider {
+    background-image: url("../img/Rectangle\ 5.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 928px;
+    height: 450px;
+    position: relative;
+    .chevron-left {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      top: calc(50% - 30px);
+      left: 20px;
+    }
+    .chevron-right {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      top: calc(50% - 30px);
+      right: 20px;
+    }
+  }
+  .booking-map {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    .booking {
+      background-color: #0a223d;
+      padding: 20px;
+      color: white;
+      border-radius: 9px;
+      .box-booking {
+        display: flex;
+        justify-content: space-between;
+        .left-box {
+          h2 {
+            font-family: "Nunito", sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 33px;
+          }
+          p {
+            font-family: "Nunito", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 14px;
+            margin: 3px 0;
+          }
+          :last-child {
+            font-family: " Nunito", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+          }
+        }
+        .right-box {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: stretch;
+          img {
+            width: 14px;
+            height: 14px;
+          }
+          span {
+            font-family: "Nunito", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+            margin: 3px 0;
+          }
+          // .phone {
+          //   margin-top: 37px;
+          // }
+        }
+      }
+      .btn {
+        background: #ec1f46;
+        border-radius: 4px;
+        text-align: center;
+        padding: 13px 0;
+        margin-top: 30px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+      }
+    }
+  }
+  .map {
+    border-radius: 9px;
+  }
+}
