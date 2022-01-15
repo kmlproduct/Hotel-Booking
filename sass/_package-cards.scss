@@ -1,0 +1,40 @@
+.package-cards {
+  margin-top: 60px;
+  .package-heading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    background-color: #0a223d;
+    padding: 16px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap;
+    padding: 20px;
+    background-color: #fff;
+    .card {
+      h2 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        margin: 10px 0;
+
+        color: #ec1f46;
+      }
+      > div {
+        display: flex;
+        margin: 10px 0;
+        img {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}

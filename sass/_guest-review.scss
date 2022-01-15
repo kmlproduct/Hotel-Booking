@@ -1,0 +1,150 @@
+.guest-review {
+  .containr-box {
+    display: flex;
+  }
+  .guest-review-box1 {
+    display: flex;
+    .img {
+      display: flex;
+    }
+    .review {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: #0a223d;
+      padding: 20px;
+      h3 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+      }
+      .map-users {
+        div {
+          display: flex;
+          margin: 20px 0;
+          img {
+            margin-right: 20px;
+          }
+        }
+      }
+      .prices {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .btn {
+          color: white;
+          padding: 10px 20px;
+          font-family: "Nunito", sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 19px;
+          background: #ec1f46;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+  .guest-review-box2 {
+    display: flex;
+    .img {
+      display: flex;
+    }
+    .review {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: #0a223d;
+      margin-left: 20px;
+      border-radius: 10px;
+      h3 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+      }
+      .map-users {
+        padding: 20px;
+        div {
+          display: flex;
+          margin: 20px 0;
+          img {
+            margin-right: 20px;
+          }
+        }
+      }
+      .prices {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        .btn {
+          color: white;
+          padding: 10px 20px;
+          font-family: "Nunito", sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 19px;
+          background: #ec1f46;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+  .container-box2 {
+    .guest-review-box3 {
+      display: flex;
+      justify-content: space-between;
+      flex-flow: wrap;
+      .img {
+        display: flex;
+      }
+      .review {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #0a223d;
+        border-radius: 10px;
+        margin: 10px 0;
+        h3 {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 23px;
+        }
+        .map-users {
+          padding: 20px;
+          div {
+            display: flex;
+            margin: 20px 0;
+            img {
+              margin-right: 20px;
+            }
+          }
+        }
+        .prices {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 20px;
+          .btn {
+            color: white;
+            padding: 10px 20px;
+            font-family: "Nunito", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+            background: #ec1f46;
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+  }
+}
