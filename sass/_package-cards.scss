@@ -16,9 +16,12 @@
     justify-content: space-between;
     align-items: center;
     flex-flow: wrap;
-    padding: 20px;
+    padding: 25px;
     background-color: #fff;
+
     .card {
+      margin: 12px;
+      flex-basis: calc(33.33% - 24px);
       h2 {
         font-style: normal;
         font-weight: 600;
@@ -31,6 +34,10 @@
       > div {
         display: flex;
         margin: 10px 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
         img {
           margin-right: 20px;
         }

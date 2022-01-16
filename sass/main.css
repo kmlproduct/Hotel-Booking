@@ -12,6 +12,8 @@ body {
 
 .container {
   padding: 0 100px;
+  max-width: 1310px;
+  margin: 0 auto;
 }
 
 .navtop {
@@ -441,6 +443,10 @@ h1 span {
   display: flex;
   justify-content: space-between;
   margin: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
 }
 .package-sammery .box-package .box-package-highlight .package-highlight .package-body > div img {
   margin-right: 10px;
@@ -472,6 +478,10 @@ h1 span {
   display: flex;
   justify-content: space-between;
   margin: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
 }
 .package-sammery .box-package .box-package-offer .package-body > div img {
   margin-right: 10px;
@@ -496,8 +506,12 @@ h1 span {
   justify-content: space-between;
   align-items: center;
   flex-flow: wrap;
-  padding: 20px;
+  padding: 25px;
   background-color: #fff;
+}
+.package-cards .cards .card {
+  margin: 12px;
+  flex-basis: calc(33.33% - 24px);
 }
 .package-cards .cards .card h2 {
   font-style: normal;
@@ -510,13 +524,32 @@ h1 span {
 .package-cards .cards .card > div {
   display: flex;
   margin: 10px 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
 }
 .package-cards .cards .card > div img {
   margin-right: 20px;
 }
 
-.guest-review .containr-box {
+.guest-review {
+  padding: 100px 0;
+}
+.guest-review h3 {
+  text-align: center;
+  padding: 20px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+.guest-review .container-box {
   display: flex;
+  justify-content: space-between;
 }
 .guest-review .guest-review-box1 {
   display: flex;
@@ -560,6 +593,7 @@ h1 span {
   line-height: 19px;
   background: #ec1f46;
   border-radius: 4px;
+  cursor: pointer;
 }
 .guest-review .guest-review-box2 {
   display: flex;
@@ -612,7 +646,7 @@ h1 span {
 .guest-review .container-box2 .guest-review-box3 {
   display: flex;
   justify-content: space-between;
-  flex-flow: wrap;
+  padding: 50px 0;
 }
 .guest-review .container-box2 .guest-review-box3 .img {
   display: flex;
@@ -624,7 +658,6 @@ h1 span {
   justify-content: space-between;
   background-color: #0a223d;
   border-radius: 10px;
-  margin: 10px 0;
 }
 .guest-review .container-box2 .guest-review-box3 .review h3 {
   font-style: normal;
@@ -658,4 +691,392 @@ h1 span {
   line-height: 19px;
   background: #ec1f46;
   border-radius: 4px;
+}
+
+.person-review {
+  text-align: center;
+  padding: 100px 0;
+}
+.person-review .heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+.person-review .person-box {
+  padding-top: 100px;
+}
+.person-review .person-box .box {
+  background-color: #fff;
+  position: relative;
+  margin: auto 200px;
+  padding: 100px;
+  text-align: center;
+  padding-top: 80px;
+}
+.person-review .person-box .box .right-arrow {
+  position: absolute;
+  top: 50%;
+  right: -100px;
+  transform: translateY(-50%);
+}
+.person-review .person-box .box .left-arrow {
+  position: absolute;
+  top: 50%;
+  left: -100px;
+  transform: translateY(-50%);
+}
+.person-review .person-box .box .img {
+  position: absolute;
+  left: 50%;
+  top: -50px;
+  transform: translateX(-59%);
+}
+.person-review .person-box .box h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ec1f46;
+  margin: 10px 0;
+}
+.person-review .person-box .box span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  color: #000000;
+}
+.person-review .person-box .box p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 160%;
+  text-align: justify;
+  color: #333333;
+}
+
+.newsletter {
+  background-image: url("../img/Rectangle 25.png");
+  background-size: cover;
+  background-position: center;
+}
+.newsletter .background {
+  background-color: #0a223dc9;
+  padding: 100px;
+}
+.newsletter .background .box-letter {
+  margin: auto 200px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newsletter .background .box-letter .text-letter p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+}
+.newsletter .background .box-letter .text-letter h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+.newsletter .background .box-letter .input {
+  display: flex;
+}
+.newsletter .background .box-letter .input input {
+  height: 55px;
+  width: 300px;
+  outline: none;
+  border: none;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.newsletter .background .box-letter .input ::-moz-placeholder {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 18px;
+  color: #bdbdbd;
+  padding-left: 20px;
+}
+.newsletter .background .box-letter .input :-ms-input-placeholder {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 18px;
+  color: #bdbdbd;
+  padding-left: 20px;
+}
+.newsletter .background .box-letter .input ::placeholder {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 18px;
+  color: #bdbdbd;
+  padding-left: 20px;
+}
+.newsletter .background .box-letter .input span {
+  background-color: red;
+  width: 65px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.activities {
+  padding: 100px 0;
+}
+.activities .heading {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-bottom: 64px;
+}
+.activities .box-activities {
+  margin: -12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.activities .box-activities .box-act {
+  background-image: url("../img/Rectangle 22.png");
+  background-size: cover;
+  background-position: center;
+  margin: 12px;
+  padding: 26px;
+  flex-basis: calc(25% - 24px);
+  border-radius: 7px;
+}
+.activities .box-activities .box-act .text-act {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 250px;
+  color: white;
+}
+.activities .box-activities .box-act .text-act div {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+.activities .box-activities .box-act .text-act .btn {
+  padding: 15px 11px;
+  margin-top: 20px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: 600;
+  background: #ec1f46;
+  border-radius: 4px;
+  width: 150px;
+  border: none;
+  color: white;
+}
+.activities .box-activities .box-act2 {
+  background-image: url("../img/Rectangle 22 (1).png");
+  background-size: cover;
+  background-position: center;
+}
+.activities .box-activities .box-act3 {
+  background-image: url("../img/Rectangle 22 (2).png");
+  background-size: cover;
+  background-position: center;
+}
+.activities .box-activities .box-act4 {
+  background-image: url("../img/Rectangle 22.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.footer {
+  background-color: #0a223d;
+  padding: 100px 0;
+}
+.footer .box-footer {
+  display: flex;
+  margin: -12px;
+  margin-bottom: 70px;
+}
+.footer .box-footer .section-footer {
+  margin: 12px;
+  flex-basis: calc(50% - 24px);
+}
+.footer .box-footer .section-footer .heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.footer .box-footer .section-footer ul {
+  list-style: none;
+  color: #bdbdbd;
+}
+.footer .box-footer .section-footer ul li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+}
+.footer .box-footer .section-footer .section-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.footer .box-footer .section-footer .section-foot .text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  flex-basis: 50%;
+}
+.footer .box-footer .section-footer .section-foot .imgs {
+  flex-basis: 50%;
+}
+.footer .box-footer .section-footer .section-foot .imgs img {
+  margin: 0 5px;
+}
+.footer .box-footer2 {
+  margin-top: 100px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  color: #bdbdbd;
+  display: flex;
+  margin: -20px;
+}
+.footer .box-footer2 .section-footer2 {
+  margin: 20px;
+  flex-basis: calc(50% - 20px);
+}
+.footer .box-footer2 .section-footer2 .heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.footer .box-footer2 .section-footer2 .inputs {
+  display: flex;
+  margin: -10px;
+  margin-top: 30px;
+}
+.footer .box-footer2 .section-footer2 .inputs input {
+  width: 255px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  margin: 10px;
+  flex-basis: calc(50% - 20px);
+}
+.footer .box-footer2 .section-footer2 .inputs ::-moz-placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  /* Gray 4 */
+  color: #bdbdbd;
+}
+.footer .box-footer2 .section-footer2 .inputs :-ms-input-placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  /* Gray 4 */
+  color: #bdbdbd;
+}
+.footer .box-footer2 .section-footer2 .inputs ::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  /* Gray 4 */
+  color: #bdbdbd;
+}
+.footer .box-footer2 .section-footer2 .textarea {
+  margin: -10px;
+}
+.footer .box-footer2 .section-footer2 .textarea textarea {
+  margin: 10px;
+  width: 539px;
+  height: 123px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  flex-basis: calc(100% - 20px);
+}
+.footer .box-footer2 .section-footer2 .btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: -10px;
+}
+.footer .box-footer2 .section-footer2 .btns > * {
+  margin: 10px;
+  flex-basis: calc(50% - 20px);
+}
+.footer .box-footer2 .section-footer2 .btns .btn {
+  background-color: #ec1f46;
+  width: 160px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: white;
+  flex-basis: calc(50% - 20px);
+}
+.footer .box-footer2 .section-footer2 .box-text {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.footer .box-footer2 .section-footer2 .box-text img {
+  margin-right: 15px;
+}
+.footer .box-footer2 .section-footer2 .box-text2 {
+  margin: 10px 0;
+  display: flex;
+  align-items: flex-start;
+}
+.footer .box-footer2 .section-footer2 .box-text2 img {
+  margin-right: 15px;
 }/*# sourceMappingURL=main.css.map */

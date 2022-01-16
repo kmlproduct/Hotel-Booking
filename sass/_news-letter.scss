@@ -1,0 +1,66 @@
+.newsletter {
+  background-image: url("../img/Rectangle\ 25.png");
+  background-size: cover;
+  background-position: center;
+
+  .background {
+    background-color: #0a223dc9;
+
+    padding: 100px;
+    .box-letter {
+      margin: auto 200px;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .text-letter {
+        p {
+          font-style: normal;
+          font-weight: 300;
+          font-size: 24px;
+          line-height: 30px;
+        }
+        h3 {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 36px;
+          line-height: 45px;
+          text-transform: uppercase;
+        }
+      }
+      .input {
+        display: flex;
+        input {
+          height: 55px;
+          width: 300px;
+          outline: none;
+          border: none;
+          border-top-left-radius: 7px;
+          border-bottom-left-radius: 7px;
+        }
+        ::placeholder {
+          font-style: normal;
+          font-weight: 300;
+          font-size: 20px;
+          line-height: 18px;
+          color: #bdbdbd;
+          padding-left: 20px;
+        }
+        span {
+          background-color: red;
+          width: 65px;
+          height: 55px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 12px;
+          line-height: 15px;
+          border-top-right-radius: 7px;
+          border-bottom-right-radius: 7px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+.activities {
+  padding: 100px 0;
+  .heading {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 64px;
+  }
+  .box-activities {
+    margin: -12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+
+    .box-act {
+      background-image: url("../img/Rectangle\ 22.png");
+      background-size: cover;
+      background-position: center;
+      margin: 12px;
+      padding: 26px;
+      flex-basis: calc(25% - 24px);
+      border-radius: 7px;
+      .text-act {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        height: 250px;
+        color: white;
+        div {
+          font-family: Mulish;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 20px;
+        }
+        .btn {
+          padding: 15px 11px;
+          margin-top: 20px;
+          font-family: "Nunito", sans-serif;
+          font-size: 16px;
+          line-height: 16px;
+          font-style: normal;
+          font-weight: 600;
+          background: #ec1f46;
+          border-radius: 4px;
+          width: 150px;
+          border: none;
+          color: white;
+        }
+      }
+    }
+    .box-act2 {
+      background-image: url("../img/Rectangle\ 22\ \(1\).png");
+      background-size: cover;
+      background-position: center;
+    }
+    .box-act3 {
+      background-image: url("../img/Rectangle\ 22\ \(2\).png");
+      background-size: cover;
+      background-position: center;
+    }
+    .box-act4 {
+      background-image: url("../img/Rectangle\ 22.png");
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}

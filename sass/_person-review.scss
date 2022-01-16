@@ -1,0 +1,68 @@
+.person-review {
+  text-align: center;
+  padding: 100px 0;
+  .heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  .person-box {
+    padding-top: 100px;
+
+    .box {
+      background-color: #fff;
+      position: relative;
+      margin: auto 200px;
+      padding: 100px;
+      text-align: center;
+      padding-top: 80px;
+      .right-arrow {
+        position: absolute;
+        top: 50%;
+        right: -100px;
+        transform: translateY(-50%);
+      }
+      .left-arrow {
+        position: absolute;
+        top: 50%;
+        left: -100px;
+        transform: translateY(-50%);
+      }
+
+      .img {
+        position: absolute;
+        left: 50%;
+        top: -50px;
+        transform: translateX(-59%);
+      }
+      h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        color: #ec1f46;
+        margin: 10px 0;
+      }
+      span {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 13px;
+        color: #000000;
+      }
+      p {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 160%;
+        text-align: justify;
+        color: #333333;
+      }
+    }
+  }
+}

@@ -1,6 +1,19 @@
 .guest-review {
-  .containr-box {
+  padding: 100px 0;
+  h3 {
+    text-align: center;
+    padding: 20px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  .container-box {
     display: flex;
+    justify-content: space-between;
   }
   .guest-review-box1 {
     display: flex;
@@ -43,6 +56,7 @@
           line-height: 19px;
           background: #ec1f46;
           border-radius: 4px;
+          cursor: pointer;
         }
       }
     }
@@ -99,7 +113,7 @@
     .guest-review-box3 {
       display: flex;
       justify-content: space-between;
-      flex-flow: wrap;
+      padding: 50px 0;
       .img {
         display: flex;
       }
@@ -110,7 +124,7 @@
         justify-content: space-between;
         background-color: #0a223d;
         border-radius: 10px;
-        margin: 10px 0;
+
         h3 {
           font-style: normal;
           font-weight: bold;
